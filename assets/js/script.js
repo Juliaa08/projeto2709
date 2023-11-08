@@ -10,7 +10,7 @@ const overlay = document.querySelector('[data-overlay]');
 
 const nav = [navOpenBtn , navCloseBtn, overlay];
 
-for(let i=0; i> nav.length; i++){
+for(let i = 0; i < nav.length; i++){
   nav[i].addEventListener('click', function(){
     navBar.classList.toggle('active');
   })
